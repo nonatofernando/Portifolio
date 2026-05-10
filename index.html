@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando Nonato — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <nav>
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-text">fn.dev</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#experience">Carreira</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Contato</a>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="hero-blob-1"></div>
+      <div class="hero-blob-2"></div>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-avail reveal">Disponível para projetos</div>
+          <h1 class="hero-name reveal r1">
+            Fernando<br /><span class="ocean">Nonato.</span>
+          </h1>
+          <p class="hero-subtitle reveal r2">
+            Full Stack Developer <span class="dot">·</span> Ciência da
+            Computação
+          </p>
+          <p class="hero-desc reveal r3">
+            Desenvolvedor apaixonado por criar soluções robustas, de APIs
+            RESTful a interfaces mobile. Transformo lógica complexa em
+            experiências digitais eficientes.
+          </p>
+          <div class="hero-ctas reveal r4">
+            <a href="#projects" class="btn-primary">Ver Projetos →</a>
+            <a href="mailto:fernandononatocco@gmail.com" class="btn-secondary"
+              >Entrar em Contato</a
+            >
+          </div>
+        </div>
+        <div class="hero-terminal reveal r2">
+          <div class="term-bar">
+            <div class="t-dot r"></div>
+            <div class="t-dot y"></div>
+            <div class="t-dot g"></div>
+            <span class="term-title">~/fernando — stack</span>
+          </div>
+          <div class="term-body">
+            <div class="t-line"><span class="t-prompt">~$</span> whoami</div>
+            <div class="t-out">Fernando Nonato</div>
+            <div class="t-line">
+              <span class="t-prompt">~$</span> cat profile.json
+            </div>
+            <div class="t-out">
+              <span class="k">"main"</span>: [<span class="v">"PHP"</span>,
+              <span class="v">"Laravel"</span>,
+              <span class="v">"React Native"</span>],
+            </div>
+            <div class="t-out">
+              <span class="k">"db"</span>: [<span class="v">"MySQL"</span>,
+              <span class="v">"PostgreSQL"</span>],
+            </div>
+            <div class="t-out">
+              <span class="k">"location"</span>:
+              <span class="v">"João Pessoa, PB"</span>
+            </div>
+            <div class="t-line"><span class="t-prompt">~$</span> ./status</div>
+            <div class="t-out">
+              ✓ Aberto para novos desafios<span class="t-cursor"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="sec-tag reveal">01 / Sobre</div>
+        <h2 class="sec-title reveal r1">
+          Minha <span class="oc">História.</span>
+        </h2>
+        <div class="about-grid">
+          <div class="about-photo-wrap reveal">
+            <div class="about-photo">
+              <div class="photo-placeholder">
+                <img src="profile.png" alt="Foto de Fernando Nonato" />
+              </div>
+            </div>
+            <div class="about-accent"></div>
+          </div>
+          <div class="about-content reveal r1">
+            <div class="about-text">
+              <p>
+                Sou estudante de
+                <strong>Bacharelado em Ciência da Computação</strong> na
+                <span class="hl">FPB</span>, com foco no desenvolvimento de
+                soluções que unem performance e design funcional.
+              </p>
+              <p>
+                Minha experiência passa pela criação de sistemas ERP, manutenção
+                de bancos de dados SQL e o desenvolvimento mobile com
+                <strong>Laravel</strong> e <strong>React Native</strong>.
+              </p>
+              <p>
+                Acredito em <strong>código limpo</strong> e no desenvolvimento
+                de arquiteturas que sejam fáceis de manter e escaláveis a longo
+                prazo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="sec-tag reveal">02 / Tecnologias</div>
+        <h2 class="sec-title reveal r1">
+          Stack <span class="su">Técnica.</span>
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-cat reveal">
+            <span class="skill-cat-icon">⚙️</span>
+            <div class="skill-cat-title">Backend</div>
+            <div class="skill-tags">
+              <span class="s-tag">PHP</span> <span class="s-tag">Laravel</span>
+              <span class="s-tag">Java</span>
+              <span class="s-tag">REST APIs</span>
+              <span class="s-tag">Python</span>
+            </div>
+          </div>
+          <div class="skill-cat reveal r1">
+            <span class="skill-cat-icon">📱</span>
+            <div class="skill-cat-title">Frontend & Mobile</div>
+            <div class="skill-tags">
+              <span class="s-tag">React Native</span>
+              <span class="s-tag">JavaScript</span>
+              <span class="s-tag">Tailwind CSS</span>
+              <span class="s-tag">jQuery</span>
+              <span class="s-tag">Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-cat reveal r2">
+            <span class="skill-cat-icon">🗄️</span>
+            <div class="skill-cat-title">Banco de Dados</div>
+            <div class="skill-tags">
+              <span class="s-tag">MySQL</span>
+              <span class="s-tag">PostgreSQL</span>
+              <span class="s-tag">SQL</span>
+              <span class="s-tag">Backup & Recovery</span>
+            </div>
+          </div>
+          <div class="skill-cat reveal r3">
+            <span class="skill-cat-icon">🔧</span>
+            <div class="skill-cat-title">Ferramentas & Extras</div>
+            <div class="skill-tags">
+              <span class="s-tag">Git</span> <span class="s-tag">GitHub</span>
+              <span class="s-tag">ERP</span>
+              <span class="s-tag">Data Analysis</span>
+              <span class="s-tag">Suporte TI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="sec-tag reveal">03 / Portfólio</div>
+
+        <h2 class="sec-title reveal r1">
+          Projetos <span class="sa">Recentes.</span>
+        </h2>
+
+        <div class="proj-grid">
+          <div class="proj-card reveal r1">
+            <div class="proj-preview" style="height: 180px">
+              <div class="proj-preview-bg"></div>
+
+              <span class="proj-emoji">🙏</span>
+
+              <span class="proj-badge"> Destaque </span>
+            </div>
+
+            <div class="proj-body">
+              <div class="proj-num">01</div>
+
+              <h3 class="proj-name">Devotio</h3>
+
+              <p class="proj-desc">
+                Aplicativo mobile para organização e acompanhamento de práticas
+                devocionais com integração REST API.
+              </p>
+
+              <div class="proj-stack">
+                <span class="p-tech">React Native</span>
+                <span class="p-tech">Expo</span>
+                <span class="p-tech">REST API</span>
+              </div>
+
+              <div class="proj-links">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.devotio"
+                  target="_blank"
+                  rel="noopener"
+                  class="proj-link play"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.31-.692V2.506c0-.265.11-.523.309-.692zM14.735 12.943l2.853 2.853L4.844 22.18l9.891-9.237zm4.351-2.453l3.071 1.706a1 1 0 010 1.608l-3.071 1.706-3.328-3.312 3.328-3.308zm-4.351-1.433L4.844 1.82l12.744 6.384-2.853 2.853z"
+                    />
+                  </svg>
+
+                  Google Play
+                </a>
+
+                <a
+                  href="https://devotio.com.br"
+                  target="_blank"
+                  rel="noopener"
+                  class="proj-link"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"
+                    />
+                    <polyline points="15,3 21,3 21,9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+
+                  Site
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card reveal r2">
+            <div class="proj-preview" style="height: 160px">
+              <div class="proj-preview-bg"></div>
+
+              <span class="proj-emoji">📋</span>
+            </div>
+
+            <div class="proj-body">
+              <div class="proj-num">02</div>
+
+              <h3 class="proj-name">API-CFOPs</h3>
+
+              <p class="proj-desc">
+                API REST para consulta de CFOPs brasileiros utilizados em NF-e.
+              </p>
+
+              <div class="proj-stack">
+                <span class="p-tech">PHP</span>
+                <span class="p-tech">REST API</span>
+                <span class="p-tech">Fiscal</span>
+                <span class="p-tech">NF-e</span>
+              </div>
+
+              <div class="proj-links">
+                <a
+                  href="https://github.com/nonatofernando/API-CFOPs"
+                  target="_blank"
+                  rel="noopener"
+                  class="proj-link"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card reveal r3">
+            <div class="proj-preview" style="height: 160px">
+              <div class="proj-preview-bg"></div>
+
+              <span class="proj-emoji">🍺</span>
+            </div>
+
+            <div class="proj-body">
+              <div class="proj-num">03</div>
+
+              <h3 class="proj-name">BeerReviewAnalysis</h3>
+
+              <p class="proj-desc">
+                Projeto de análise exploratória de dados para extração de
+                insights e tendências.
+              </p>
+
+              <div class="proj-stack">
+                <span class="p-tech">Python</span>
+                <span class="p-tech">EDA</span>
+                <span class="p-tech">Analytics</span>
+              </div>
+
+              <div class="proj-links">
+                <a
+                  href="https://github.com/nonatofernando/BeerReviewAnalysis"
+                  target="_blank"
+                  rel="noopener"
+                  class="proj-link"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card reveal r4">
+            <div class="proj-preview" style="height: 160px">
+              <div class="proj-preview-bg"></div>
+
+              <span class="proj-emoji">💧</span>
+            </div>
+
+            <div class="proj-body">
+              <div class="proj-num">04</div>
+
+              <h3 class="proj-name">IrrigaInteligente</h3>
+
+              <p class="proj-desc">
+                Sistema de irrigação inteligente integrado com Arduino para
+                automação e monitoramento.
+              </p>
+
+              <div class="proj-stack">
+                <span class="p-tech">PHP</span>
+                <span class="p-tech">Arduino</span>
+                <span class="p-tech">IoT</span>
+                <span class="p-tech">Sensores</span>
+              </div>
+
+              <div class="proj-links">
+                <a
+                  href="https://github.com/nonatofernando/Irriga-Inteligente_Arduino"
+                  target="_blank"
+                  rel="noopener"
+                  class="proj-link"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-card reveal r5">
+            <div class="proj-preview" style="height: 160px">
+              <div class="proj-preview-bg"></div>
+
+              <span class="proj-emoji">🚀</span>
+            </div>
+
+            <div class="proj-body">
+              <div class="proj-num">05</div>
+
+              <h3 class="proj-name">FlowMetrics</h3>
+
+              <p class="proj-desc">
+                Plataforma SaaS para empresas acompanharem métricas, vendas,
+                performance de equipes e relatórios inteligentes em tempo real.
+              </p>
+
+              <div class="proj-stack">
+                <span class="p-tech">Laravel</span>
+                <span class="p-tech">MySQL</span>
+                <span class="p-tech">Chart.js</span>
+                <span class="p-tech">API REST</span>
+              </div>
+
+              <div class="proj-links">
+                <a href="#" class="proj-link"> 🚧 Em desenvolvimento </a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-card reveal r6">
+            <div class="proj-preview" style="height: 160px">
+              <div class="proj-preview-bg"></div>
+              <span class="proj-emoji">🩺</span>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num">06</div>
+              <h3 class="proj-name">MedSync</h3>
+              <p class="proj-desc">
+                Sistema web para clínicas com prontuários, agendamentos e
+                relatórios administrativos.
+              </p>
+              <div class="proj-stack">
+                <span class="p-tech">Laravel</span>
+                <span class="p-tech">MySQL</span>
+                <span class="p-tech">Admin Panel</span>
+                <span class="p-tech">Charts</span>
+              </div>
+              <div class="proj-links">
+                <a href="#" class="proj-link"> 🚧 Em desenvolvimento </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="sec-tag reveal">04 / Trajetória</div>
+        <h2 class="sec-title reveal r1">
+          Carreira <span class="oc">Profissional.</span>
+        </h2>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-period">Nov 2024 — Atual</div>
+            <div class="tl-role">Freelancer</div>
+            <div class="tl-company">SunDevBeach</div>
+            <p class="tl-desc">
+              Desenvolvimento de soluções personalizadas para clientes,
+              incluindo pequenos sistemas e automações. Atuação em análise de
+              dados, prototipação, levantamento de requisitos e planejamento de
+              projetos. Experiência com suporte técnico em ERP, manipulação de
+              bancos de dados e gestão de rotinas de backup. Participação em
+              organização de equipes e estratégias de marketing.
+            </p>
+          </div>
+          <div class="tl-item reveal r1">
+            <div class="tl-period">Dez 2024 — Mai 2025</div>
+            <div class="tl-role">Estagiário em TI</div>
+            <div class="tl-company">Softcom Tecnologia</div>
+            <p class="tl-desc">
+              Atendimento remoto a clientes via telefone e chat, prestando
+              suporte técnico em sistemas da empresa. Realização de manipulações
+              e correções em bancos de dados, análise de relatórios para
+              identificação de melhorias e aplicação de soluções técnicas.
+              Participação em treinamentos e capacitação de usuários.
+            </p>
+          </div>
+          <div class="tl-item reveal r2">
+            <div class="tl-period">Abr 2024 — Ago 2024</div>
+            <div class="tl-role">Estagiário em TI</div>
+            <div class="tl-company">Gráfica JB</div>
+            <p class="tl-desc">
+              Suporte no desenvolvimento, manutenção e gerenciamento de sistemas
+              utilizando linguagens de programação e bancos de dados. Apoio no
+              planejamento, organização e implementação de processos de gestão
+              de TI. Estruturação e sistematização de informações para facilitar
+              a análise e compreensão de dados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-inner">
+          <div class="sec-tag reveal" style="justify-content: center">
+            Contato
+          </div>
+          <h2 class="sec-title reveal r1">
+            Vamos construir<br />algo incrível?
+          </h2>
+          <p class="contact-desc reveal r2">
+            Estou aberto a novas oportunidades, freelas e conversas
+            interessantes. Me manda um e-mail ou me encontra nas redes:
+          </p>
+          <a
+            href="mailto:fernandononatocco@gmail.com"
+            class="contact-email reveal r3"
+            >fernandononatocco@gmail.com</a
+          >
+          <div class="socials reveal r4">
+            <a
+              href="https://github.com/nonatofernando"
+              target="_blank"
+              rel="noopener"
+              class="social-link"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://github.com/SunDevBeach"
+              target="_blank"
+              rel="noopener"
+              class="social-link"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              SunDevBeach
+            </a>
+            <a href="mailto:fernandononatocco@gmail.com" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              E-mail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot-copy">
+        © 2025 <span>Fernando Nonato</span> — João Pessoa, PB
+      </div>
+      <a href="#hero" class="foot-back">↑ voltar ao topo</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
